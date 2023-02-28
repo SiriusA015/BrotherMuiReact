@@ -16,7 +16,6 @@ const BaseLayout: FC<BaseLayoutProps> = ({ children }) => {
         height: '100%'
       }}
     >
-      {children || <Outlet />}
     </Box>
   );
 };
