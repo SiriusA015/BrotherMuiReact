@@ -18,9 +18,6 @@ const ThemeProviderWrapper: React.FC = (props) => {
 
   return (
     <StylesProvider injectFirst>
-      <ThemeContext.Provider value={setThemeName}>
-        <ThemeProvider theme={theme}>{props.children}</ThemeProvider>
-      </ThemeContext.Provider>
     </StylesProvider>
   );
 };
